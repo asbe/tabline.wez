@@ -16,12 +16,12 @@ end
 
 --- Returns the name of the package, used when requiring modules
 local function get_require_path()
-  -- HTTPS version
-  local https_path = 'httpssCssZssZsgithubsDscomsZsmichaelbrusegardsZstablinesDswez'
-  local https_path_slash = 'httpssCssZssZsgithubsDscomsZsmichaelbrusegardsZstablinesDswezsZs'
-  -- HTTP version (without the 's' in https)
-  local http_path = 'httpCssZssZsgithubsDscomsZsmichaelbrusegardsZstablinesDswez'
-  local http_path_slash = 'httpCssZssZsgithubsDscomsZsmichaelbrusegardsZstablinesDswezsZs'
+  -- HTTPS version for the fork
+  local https_path = 'httpssCssZssZsgithubsDscomsZsasbesZstablinesDswez'
+  local https_path_slash = 'httpssCssZssZsgithubsDscomsZsasbesZstablinesDswezsZs'
+  -- HTTP version for the fork (without the 's' in https)
+  local http_path = 'httpCssZssZsgithubsDscomsZsasbesZstablinesDswez'
+  local http_path_slash = 'httpCssZssZsgithubsDscomsZsasbesZstablinesDswezsZs'
 
   -- Check all possible paths
   if directory_exists(https_path_slash) then
